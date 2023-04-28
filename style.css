@@ -1,0 +1,423 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width:641px){
+    .mobile {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        float: left;
+        height: 32px;
+        padding-left: 24px;
+    }
+
+    .logo_colmar, .logo_academy {
+        font-size: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    .logo_colmar {
+        color: gray;
+    }
+
+    .logo_academy {
+        color: lightgray;
+    }
+
+    .menu {
+        padding-right: 24px;
+        float: right;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .nav {
+        display: flex;
+        align-items: right;
+        list-style: none;
+        float:right;
+        text-align:right;
+    }
+
+    .nav li {
+        padding-left: 16px;
+    }
+
+    main {
+        padding-top: 64px;
+        width: 100%;
+    }
+
+    .start {
+        background-color: lightgrey;
+        color: rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+    }
+
+    .start img {
+        width: 60%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .start_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .start_text button {
+        background-color: rgb(70, 68, 68);
+        color: white;
+        box-sizing: content-box;
+        width: 90%;
+        height: 10%;
+        top: 8px;
+        bottom: 8px;
+    }
+
+    .practicing {
+        display: flex;
+        width: 100%;
+        padding-bottom: 32px;
+        color:rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .p_left {
+        width: 60%;
+    }
+
+    .p_left img {
+        width: 100%;
+    }
+
+    .p_left h1, .p_left p {
+        padding-left: 16px;
+    }
+
+    .p_right {
+        width: 40%;
+    }
+
+    .orientation, .campus, .guest {
+        display: flex;
+    }
+
+    .guest {
+        background-color: lightgray;
+    }
+
+    .orientation img, .campus img, .guest img {
+        width: 35%;
+        height: auto;
+        padding: 16px;
+    }
+
+    .orientation_date, .our_campus, .guest_lecture {
+        width: 65%;
+        padding: 8px;
+    }
+
+    .read_more {
+        color: rgb(0, 132, 255);
+    }
+
+    .learning {
+        display: flex;
+        flex-direction: column;
+        color:rgb(70, 68, 68);
+        background-color: lightgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 32px;
+        width: 100%;
+    }
+
+    .learning h1 {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    .start_learning {
+        list-style: none;
+        display: flex;
+    }
+
+    .start_learning li {
+        margin: 32px;
+        width: 33%;
+    }
+
+    .software_engineering, .computer_art, .design, .data, .business, .marketing {
+        background-color: white;
+    }
+
+    .software_engineering img, .computer_art img, .design img, .data img, .business img, .marketing img {
+        width: 100%;
+        height: auto;
+    }
+
+    .software_engineering h3, .computer_art h3, .design h3, .data h3, .business h3, .marketing h3 {
+        padding-top: 16px;
+        padding-left: 16px;
+    }
+
+    .software_engineering p, .computer_art p, .design p, .data p, .business p, .marketing p{
+        padding-bottom: 8px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .thesis {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 32px;
+        background-color: white;
+        color:rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .thesis h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .thesis_exhibit {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .t_left {
+        width: 60%;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+    }
+
+    .t_left video {
+        width: 100%;
+    }
+
+    .t_left h3 {
+        padding-bottom: 8px;
+    }
+
+    .t_right_list {
+        list-style: none;
+    }
+
+    .t_right_list li {
+        display: flex;
+    }
+
+    .t_right_list img {
+        width: 35%;
+        padding: 16px;
+    }
+
+    .fisma_box {
+        background-color: lightgrey;
+    }
+
+    .fisma, .then_now {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    footer {
+        display: flex;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .copyright {
+        display: flex;
+        align-items: center;
+        text-align: left;
+        float: left;
+        left: 0;
+        padding-left: 24px;
+    }
+
+    .terms {
+        float: right;
+        right: 0;
+    }
+
+    .t_p {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        float:right;
+        text-align:right;
+        padding-right: 24px;
+    }
+
+    .t_p li {
+        padding-left: 16px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .desktop {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        width: 100%;
+        height: 64px;
+        top: 0;
+        z-index: 100;
+        background-color: white;
+    }
+    .menu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .start {
+        background-color: lightgrey;
+        color: rgb(70, 68, 68);
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        height: auto;
+    }
+
+    .start img {
+        width: 100%;
+        padding-bottom: 32px;
+    }
+
+    .start_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 16px;
+        padding-bottom: 32px;
+    }
+
+    .start_text h1 {
+        padding-bottom: 32px;
+    }
+
+    .start_text h3 {
+        padding-bottom: 24px;
+    }
+
+    .start_text button {
+        background-color: rgb(70, 68, 68);
+        color: white;
+        box-sizing: content-box;
+        width: 50%;
+        height: 20px;
+        margin-block-end: inherit;
+        padding-bottom: 32px;
+        margin: auto 25%;
+    }
+
+    .practicing {
+        padding: 16px 16px 32px 16px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .practicing .p_left {
+        display: none;
+    }
+
+    .practicing .p_right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .campus, .orientation {
+        padding-bottom: 64px;
+    }
+
+    .guest {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+
+    .read_more {
+        color: rgb(0, 132, 255);
+    }
+
+    .learning {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: 32px 16px;
+    }
+
+    .learning h1 {
+        padding-bottom: 16px;
+    }
+
+    .start_learning {
+        list-style: none;
+    }
+
+    .start_learning li {
+        background-color: lightgrey;
+        margin-bottom: 8px;
+        padding: 16px 16px 24px 16px;
+    }
+
+    .thesis h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+
+    video {
+        width: 100%;
+        padding-bottom: 24px;
+    }
+
+    footer {
+        padding: 16px auto;
+    }
+}
